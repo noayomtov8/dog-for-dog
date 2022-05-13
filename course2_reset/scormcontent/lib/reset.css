@@ -1,0 +1,56 @@
+:root {
+    --font-family-assistent: 'Assistant', sans-serif;
+    --font-family-ui: var(--font-family-assistent);
+}
+
+* {
+    direction: rtl;
+    font-family: var(--font-family-assistent);
+}
+
+.blocks-accordion__header {
+    direction: rtl;
+}
+
+.blocks-accordion__title {
+    text-align: right;
+}
+
+#innerApp {
+    direction: rtl;
+}
+
+.lesson--open {
+    padding-right: 28rem;
+    padding-left: 0;
+}
+
+.lesson__sidebar {
+    right: 0;
+    left: auto;
+}
+
+.lesson-header__top-wrap:after {
+
+    position: relative;
+}
+
+
+.progress__indicator {
+    right: -100%;
+}
+
+.lesson-header__top-wrap:after {
+
+    position: relative;
+}
+
+.progress__container {
+    position: absolute;
+}
+/*.progress__indicator {
+    left: -100%;
+}
+
+
+
